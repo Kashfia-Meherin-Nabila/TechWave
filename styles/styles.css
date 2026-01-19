@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+/* responsive design */
+@media (max-width: 576px){
+    .subscribe-btn, 
+    .menus{
+    display: none;
+  }
+}
+
+/* 576px – 991px medium device*/
+@media (min-width: 577px) and (max-width: 992px) {
+  .menus{
+    gap: 10px;
+  }
+   .hamburger{
+    display: none;
+  }
+}
+
+/* 992px+ large device */
+@media (min-width:993px ) {
+  
+  .hamburger{
+    display: none;
+  }
+}
