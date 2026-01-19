@@ -60,6 +60,14 @@
     left: -290px;
     white-space: nowrap;
 }
+/* about */
+.about-content{
+  padding: 10px;
+}
+  .card-box{
+    gap: 40px;
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 
 
@@ -102,6 +110,15 @@
     left: -100px;
     white-space: nowrap;
 }
+/* about */
+.about-content{
+  padding: 20px;
+
+}
+.card-box{
+  gap: 40px;
+  grid-template-columns: repeat(2, 1fr);
+ }
   
 }
 

@@ -1,71 +1,158 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- inter-font link -->
-     <link rel="preconnect" href="https://fonts.googleapis.com">
-     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
-     <!-- tailwind CSS link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- tailwind CSS link -->
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <!-- CSS file link -->
-     <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/styles.css" />
     <title>TechWave</title>
-    
-</head>
-<body class="text-white font-[Inter]">
-    <header class="max-w-[1600px]  mx-auto">
-        
-        <nav id="navbar" class="max-w-[1600px]  bg-[#1A0B2E] mx-auto flex justify-between items-center   ">
-            <h1 id="name" class="text-3xl font-bold  ">Tech<span class="text-3xl font-bold 
-           bg-gradient-to-b from-[#9100F8] via-[#FB09B4] to-[#F7E93F]
-           bg-clip-text text-transparent ">Wave</span></h1>
-            <!-- menus -->
-            <ul class="menus flex gap-x-32 text-base ">
-                <li class="hover:bg-[#FB09B4] px-5 py-2 rounded-4xl"><a href="#">About</a></li>
-                <li class="hover:bg-[#FB09B4] px-5 py-2 rounded-4xl"><a href="#">Episodes</a></li>
-                <li class="hover:bg-[#FB09B4] px-5 py-2 rounded-4xl"><a href="#">Host</a></li>
-            </ul>
-            <!-- buttons -->  
-            <div>
-                <button class="subscribe-btn flex px-5 py-3 text-white font-semibold rounded-4xl 
-               bg-gradient-to-l from-[#9100F8] via-[#FB09B4] to-[#F7E93F]
-               hover:opacity-90 transition">Subscribe<img src="assets/ArrowRight.png" alt=""></button>
-            </div>
+  </head>
+  <body class="text-white font-[Inter]">
+    <header class="max-w-[1600px] mx-auto">
+      <nav
+        id="navbar"
+        class="max-w-[1600px] bg-[#1A0B2E] mx-auto flex justify-between items-center"
+      >
+        <h1 id="name" class="text-3xl font-bold">
+          Tech<span
+            class="text-3xl font-bold bg-gradient-to-b from-[#9100F8] via-[#FB09B4] to-[#F7E93F] bg-clip-text text-transparent"
+            >Wave</span
+          >
+        </h1>
+        <!-- menus -->
+        <ul class="menus flex gap-x-32 text-base">
+          <li class="hover:bg-[#FB09B4] px-5 py-2 rounded-4xl">
+            <a href="#">About</a>
+          </li>
+          <li class="hover:bg-[#FB09B4] px-5 py-2 rounded-4xl">
+            <a href="#">Episodes</a>
+          </li>
+          <li class="hover:bg-[#FB09B4] px-5 py-2 rounded-4xl">
+            <a href="#">Host</a>
+          </li>
+        </ul>
+        <!-- buttons -->
+        <div>
+          <button
+            class="subscribe-btn flex px-5 py-3 text-white font-semibold rounded-4xl bg-gradient-to-l from-[#9100F8] via-[#FB09B4] to-[#F7E93F] hover:opacity-90 transition"
+          >
+            Subscribe<img src="assets/ArrowRight.png" alt="" />
+          </button>
+        </div>
 
-            <div>
-                <img class="hamburger" src="assets/hamburger-menu.png" alt="">
-            </div>
-        </nav>
-        
-     <!-- banner section -->
-        <section class="banner bg-[url(assets/hero-bg.png)] bg-no-repeat bg-center bg-cover mx-auto pt-100 ">
-            <div id="images" class="relative w-[334px] h-[334px] flex items-center justify-center">
-                <img id="circle" class="absolute w-full h-full  inset-x-158 -top-55 " src="assets/hero-circle.png" alt="">
-            
-                <img id="microphone" class="relative  z-10 transform translate-x-165 -translate-y-55" src="assets/microphone.png" alt="">
-                <span id="badge" class="relative  z-10 transform translate-x-175 -translate-y-85 inline-flex items-center rounded-4xl text-green-50 px-2 py-1 text-base font-medium bg-green-700 inset-ring inset-ring-green-600/20 ">New</span>
-            </div>
-            <div class="text-center -mt-36 ">
-                <h1 class="z-auto text-6xl font-bold mb-8">TechWave</h1>
-                <p class="opacity-[0.8] text-base mb-8">Your daily dose of tech insights, productivity hacks, and personal growth</p>
-            </div>
-            <div class="flex gap-2 justify-center w-full pb-50">
-                <button class="flex px-5 py-3 text-white font-semibold rounded-4xl  items-center
-                bg-gradient-to-l from-[#9100F8] via-[#FB09B4] to-[#F7E93F]
-                hover:opacity-90 transition"><img class="mr-2" src="assets/spotify.png" alt="">Listen on Spotify</button>
-                <button class="border border-solid border-[#00FF88] text-[#00FF88] px-3 py-3  rounded-4xl flex items-center "><img class="mr-2 w-[20px] h-[20px]" src="assets/message.png" alt="">Subscribe</button>
-            </div>
+        <div>
+          <img class="hamburger" src="assets/hamburger-menu.png" alt="" />
+        </div>
+      </nav>
 
-        </section>
+      <!-- banner section -->
+      <section
+        class="banner bg-[url(assets/hero-bg.png)] bg-no-repeat bg-center bg-cover mx-auto pt-100"
+      >
+        <div
+          id="images"
+          class="relative w-[334px] h-[334px] flex items-center justify-center"
+        >
+          <img
+            id="circle"
+            class="absolute w-full h-full inset-x-158 -top-55"
+            src="assets/hero-circle.png"
+            alt=""
+          />
 
+          <img
+            id="microphone"
+            class="relative z-10 transform translate-x-165 -translate-y-55"
+            src="assets/microphone.png"
+            alt=""
+          />
+          <span
+            id="badge"
+            class="relative z-10 transform translate-x-175 -translate-y-85 inline-flex items-center rounded-4xl text-green-50 px-2 py-1 text-base font-medium bg-green-700 inset-ring inset-ring-green-600/20"
+            >New</span
+          >
+        </div>
+        <div class="text-center -mt-36">
+          <h1 class="z-auto text-6xl font-bold mb-8">TechWave</h1>
+          <p class="opacity-[0.8] text-base mb-8">
+            Your daily dose of tech insights, productivity hacks, and personal
+            growth
+          </p>
+        </div>
+        <div class="flex gap-2 justify-center w-full pb-50">
+          <button
+            class="flex px-5 py-3 text-white font-semibold rounded-4xl items-center bg-gradient-to-l from-[#9100F8] via-[#FB09B4] to-[#F7E93F] hover:opacity-90 transition"
+          >
+            <img class="mr-2" src="assets/spotify.png" alt="" />Listen on
+            Spotify
+          </button>
+          <button
+            class="border border-solid border-[#00FF88] text-[#00FF88] px-3 py-3 rounded-4xl flex items-center"
+          >
+            <img
+              class="mr-2 w-[20px] h-[20px]"
+              src="assets/message.png"
+              alt=""
+            />Subscribe
+          </button>
+        </div>
+      </section>
     </header>
+    <!-- main section -->
     <main>
+        <!-- about section -->
+      <section
+        id="about"
+        class="max-w-[1600px] bg-[#1A0B2E] mx-auto  text-center"
+      >
+        <div class="about-content mb-80  max-w-[1200px] mx-auto">
+          <h2 class="text-6xl font-bold mb-16">About the Podcast</h2>
+          <p class="text-base mb-8 font-[400]">
+            TechWave is your go-to podcast for staying ahead in the fast-paced
+            world of technology.<br />
+            We break down complex topics into digestible insights, explore
+            productivity strategies that actually work,<br />
+            and share stories of personal growth from industry leaders.
+          </p>
+          <p class="text-base  font-[400]">
+            Join thousands of young professionals and tech enthusiasts who start
+            their day with TechWave.
+          </p>
+        </div>
+        <br />
+        <hr class="opacity-[0.1]" />
+        <br />
+        <!-- card section -->
+        <div class="card-box pt-80 pb-120 grid grid-cols-4 justify-between max-w-[1200px] mx-auto ">
+            <div class="card-content ">
+                <h3 class="text-5xl text-[#00FF88] font-bold">150K+</h3>
+                <p class="opacity-[0.8]">Monthly Listeners</p>
+            </div>
+            <div class="card-content">
+                <h3 class="text-5xl text-[#00FF88] font-bold">200+</h3>
+                <p class="opacity-[0.8]">Episodes Published</p>
+            </div>
+            <div class="card-content">
+                <h3 class="text-5xl text-[#00FF88] font-bold">4.9★</h3>
+                <p class="opacity-[0.8]">Average Rating</p>
+            </div>
+            <div class="card-content">
+                <h3 class="text-5xl text-[#00FF88] font-bold">50+</h3>
+                <p class="opacity-[0.8]">Industry Experts</p>
+            </div>
 
+        </div>
+      </section>
     </main>
-    <footer>
-
-    </footer>
-</body>
+    <footer></footer>
+  </body>
 </html>
