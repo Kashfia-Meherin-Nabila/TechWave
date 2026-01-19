@@ -1,5 +1,13 @@
 @import "tailwindcss";
 
+/* .banner{
+  background-image: url("/assets/hero-bg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin: auto;
+} */
+
 /* responsive design */
 @media (max-width: 576px){
     .subscribe-btn, 
