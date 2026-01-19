@@ -61,12 +61,37 @@
     white-space: nowrap;
 }
 /* about */
-.about-content{
-  padding: 10px;
-}
+  .about-content{
+    padding: 10px;
+  }
   .card-box{
     gap: 40px;
     grid-template-columns: repeat(2, 1fr);
+  }
+
+  .about-content,
+  .card-box{
+    padding: 40px 10px;
+    margin: 0 auto;
+  }
+
+
+  #card{
+    padding: 5px;
+    margin: 0 auto;
+    gap: 40px;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  #Why-Choose{
+    padding: 15px 0px;
+  }
+  .why-choose-heading{
+    font-size: 3rem;
+    line-height: 1.5 ;
+    padding:0px 10px;
+  }
+  .Why-Choose-content>h3{
+    margin: 15px auto;
   }
 }
 
