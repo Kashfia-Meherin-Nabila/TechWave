@@ -93,6 +93,16 @@
   .Why-Choose-content>h3{
     margin: 15px auto;
   }
+  
+  #host{
+    display: block;
+    text-align: center;
+    
+  }
+  .author,
+  #social-icons{
+    display: inline-flex;  
+  }
 }
 
 
