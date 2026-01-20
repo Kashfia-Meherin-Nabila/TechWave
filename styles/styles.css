@@ -74,11 +74,15 @@
     margin: 0 auto;
   }
 
+/* why choose */
   #card {
-    padding: 5px;
+    display: grid;
+    width: 100%;
+    padding: 2px;
     margin: 0 auto;
-    gap: 40px;
-    grid-template-columns: repeat(1, 1fr);
+    align-items: center;
+    gap: 10px !important;
+    grid-template-columns: 1fr;
   }
   #Why-Choose {
     padding: 15px 0px;
@@ -87,11 +91,39 @@
     font-size: 3rem;
     line-height: 1.5;
     padding: 0px 10px;
+    margin: 0 auto;
   }
   .Why-Choose-content > h3 {
     margin: 15px auto;
   }
 
+  /* features section */
+  #feature-episodes{
+    padding: 20px 5px;
+
+  }
+  #feature{
+    
+    padding: 5px;
+    margin: 0 auto;
+    gap: 40px;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .feature-video{
+    width: 100%;
+  }
+  /* footer */
+  #social-icons{
+    margin-top: 20px;
+    
+  }
+  .icon-name{
+    font-size: 10px;
+
+  }
+
+
+/* host section */
   #host {
     display: block;
     text-align: center;
@@ -127,7 +159,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    /* Remove any inset-x-158 classes */
     left: auto !important;
     right: auto !important;
   }
@@ -176,6 +207,33 @@
   .card-box {
     gap: 40px;
     grid-template-columns: repeat(2, 1fr);
+  }
+/* why choose */
+  #card {
+    display: grid;
+    width: 100%;
+    padding: 2px;
+    margin: 0 auto;
+    align-items: center;
+    gap: 10px !important;
+    grid-template-columns: 1fr;
+  }
+
+  
+  /* features section */
+  #feature-episodes{
+    padding: 20px 15px;
+
+  }
+  #feature{
+    
+    padding: 15px;
+    margin: 0 auto;
+    gap: 40px;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .feature-video{
+    width: 100%;
   }
 }
 
