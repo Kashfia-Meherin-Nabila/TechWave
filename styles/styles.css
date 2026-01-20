@@ -1,13 +1,5 @@
 @import "tailwindcss";
 
-/* .banner{
-  background-image: url("/assets/hero-bg.png");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  margin: auto;
-} */
-
 /* responsive design */
 @media screen and (max-width: 576px) {
   #name,
@@ -74,7 +66,7 @@
     margin: 0 auto;
   }
 
-/* why choose */
+  /* why choose */
   #card {
     display: grid;
     width: 100%;
@@ -98,32 +90,20 @@
   }
 
   /* features section */
-  #feature-episodes{
+  #feature-episodes {
     padding: 20px 5px;
-
   }
-  #feature{
-    
+  #feature {
     padding: 5px;
     margin: 0 auto;
     gap: 40px;
     grid-template-columns: repeat(1, 1fr);
   }
-  .feature-video{
+  .feature-video {
     width: 100%;
   }
-  /* footer */
-  #social-icons{
-    margin-top: 20px;
-    
-  }
-  .icon-name{
-    font-size: 10px;
 
-  }
-
-
-/* host section */
+  /* host section */
   #host {
     display: block;
     text-align: center;
@@ -132,6 +112,16 @@
   #social-icons {
     display: inline-flex;
   }
+  
+  /* footer */
+  #social-icons {
+    margin-top: 20px;
+  }
+  .icon-name {
+    font-size: 10px;
+  }
+
+  
 }
 
 /* 576px – 991px medium device*/
@@ -144,7 +134,7 @@
   }
 
   .banner {
-    padding-top: 5rem !important; 
+    padding-top: 5rem !important;
     min-height: auto;
     display: flex;
     flex-direction: column;
@@ -162,9 +152,6 @@
     left: auto !important;
     right: auto !important;
   }
-
-
-
   #circle {
     position: absolute !important;
     width: 100% !important;
@@ -183,23 +170,23 @@
     right: auto;
   }
   #microphone {
-    width: 150px !important ;    
+    width: 150px !important ;
     height: auto !important;
     position: relative !important;
     z-index: 10 !important;
-    transform: none !important; 
+    transform: none !important;
     margin: 0 !important;
-
   }
   #badge {
     position: absolute !important;
-     z-index: 20 !important;
+    z-index: 20 !important;
     top: 40px !important;
     right: 20px !important;
-    transform: none !important; 
+    transform: none !important;
     font-size: 1rem !important;
     padding: 4px 12px !important;
   }
+
   /* about */
   .about-content {
     padding: 20px;
@@ -208,7 +195,7 @@
     gap: 40px;
     grid-template-columns: repeat(2, 1fr);
   }
-/* why choose */
+  /* why choose */
   #card {
     display: grid;
     width: 100%;
@@ -219,20 +206,18 @@
     grid-template-columns: 1fr;
   }
 
-  
-  /* features section */
-  #feature-episodes{
+/* features section */
+  #feature-episodes {
     padding: 20px 15px;
-
   }
-  #feature{
-    
+
+  #feature {
     padding: 15px;
     margin: 0 auto;
     gap: 40px;
     grid-template-columns: repeat(1, 1fr);
   }
-  .feature-video{
+  .feature-video {
     width: 100%;
   }
 }
